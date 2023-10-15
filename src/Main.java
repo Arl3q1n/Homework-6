@@ -6,22 +6,22 @@ public class Main {
         // Exercise 1
         System.out.println("\n----------------------------------\n");
 
-        ArrayElements arrayElements = new ArrayElements();
-        arrayElements.displayArray();
+        ArrayElements Ex_1 = new ArrayElements();
+        Ex_1.displayArray();
 
         // Exercise 2
         System.out.println("\n----------------------------------\n");
 
-        Calculations calculations = new Calculations();
-        calculations.sumOfElements();
-        calculations.averageOfElements();
-        calculations.countOfEvenAndOddElements();
+        Calculations Ex_2 = new Calculations();
+        Ex_2.sumOfElements();
+        Ex_2.averageOfElements();
+        Ex_2.countOfEvenAndOddElements();
 
         // Exercise 3
         System.out.println("\n----------------------------------\n");
 
-        CopyArray copyArray = new CopyArray();
-        copyArray.copyElements(copyArray.firstArray, copyArray.secondArray);
+        CopyArray Ex_3 = new CopyArray();
+        Ex_3.copyElements(Ex_3.firstArray, Ex_3.secondArray);
 
         System.out.println("\n----------------------------------\n");
     }
